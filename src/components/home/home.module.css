@@ -1,0 +1,17 @@
+
+.header{
+    min-height: 100vh;
+    background-color: #1f2021;
+    background-image: url('../imges/background.jpg');
+    background-size:cover;
+    position: relative;
+}
+
+.h1head{
+    font-style: italic;
+    display: flex;
+    justify-content: start;
+    font-family: 'Dancing Script';
+    font-size:100px;
+    margin-top:100px
+}

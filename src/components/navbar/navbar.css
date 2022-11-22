@@ -1,0 +1,19 @@
+
+.backNavStyle{
+    background: #fff;
+ }
+
+ Nav{
+    font-size: 20px;
+ }
+
+ .navlink:hover{
+    background-color: #19c8fa;
+    border-radius: 20px;
+ }
+
+ .navlinkdrop:hover{
+    background-color: #19c8fa;
+ }
+
+

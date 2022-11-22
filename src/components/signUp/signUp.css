@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.logo1{
+    background: url("../imges/background\ sign\ up2.jpg") ;
+    background-size: cover;
+    height: 41rem;
+    top: 3px;
+    
+}
+
+.formInput{
+    display:flex;
+}
+.formInput form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 63%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    justify-content: space-evenly; 
+     flex-grow: 1;
+    border: #fff solid;
+}
+
+.sup{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 60%;
+    color: #fff;
+
+}
+
+
+a, a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 2rem;
+  color: #fff;
+}
+
+button {
+    margin-top: 50px;
+  padding: 0.5rem;
+}
+
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
