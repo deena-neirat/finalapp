@@ -1,62 +1,58 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 .logo {
-    background: url("../imges/signIn-backgroung1.jpg");
-    background-size: cover;
-    height: 41rem;
-    top: 3px;
-    margin-top: 3px;
-
+  background: url("../imges/signIn-backgroung1.jpg");
+  background-size: cover;
+  height: 41rem;
+  top: 3px;
+  margin-top: 3px;
 }
 
 .loginform {
-    width: 450px;
-    top: 58%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    color: #fff;
-    border: #fff solid 1px;
-    margin: 5px 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-
+  width: 450px;
+  top: 58%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+  border: #fff solid 1px;
+  margin: 5px 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .loginform h2 {
-    font-size: 35px;
-    top: 50px;
-    text-transform: uppercase;
-    margin: 35px 0;
+  font-size: 35px;
+  top: 50px;
+  text-transform: uppercase;
+  margin: 35px 0;
 }
 
 .loginform label {
-    font-size: 20px;
-    margin: 15px 0;
-
+  font-size: 20px;
+  margin: 15px 0;
 }
 
 .loginform input {
-    font-size: 16px;
-    width: 100%;
-    padding: 15px 10px;
-    border: 0;
-    outline: none;
-    border-radius: 5px;
-
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
 }
 
 .loginform button {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px 15px;
-    width: 50%;
-    border-radius: 5px;
-    border: 0;
-    color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius: 5px;
+  border: 0;
+  color: #000;
 }

@@ -1,20 +1,22 @@
-.centpic{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.centpic {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 p {
-    margin-top: 13px;
-    margin-bottom: 1rem;
-    text-align: center;
+  margin-top: 13px;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.h5, h5 {
-    font-size: 1.25rem;
-    text-align: center;
+.h5,
+h5 {
+  font-size: 1.25rem;
+  text-align: center;
 }
 
-img, svg {
-    padding-left: 20px;
+img,
+svg {
+  padding-left: 20px;
 }
